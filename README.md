@@ -7,11 +7,11 @@ In this app I experimented with:
 Item  | Description
 ------------- | -------------
 @State  | stores property in shared storage managed by SwiftUI
-@FocusState  |  
-TextField format | 
-keyboardType | 
-Picker and pickerStyle | 
-toolbar | 
+@FocusState  |  tracks which view currently receives user input
+TextField format | formats the view according to input type and restrict input
+keyboardType | uses to attach keyboard of a specific type to a particular input field
+pickerStyle | formats the style and layout of the picker input 
+toolbar | populates a toolbar with a collection of views
 
 ## Simulation clip:
 
